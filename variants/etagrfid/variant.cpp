@@ -158,7 +158,7 @@ const PinDescription g_APinDescription[]=
 
   // 30..31 - RX/TX LEDS (PB03/PA27)
   // --------------------
-  { PORTB,  3, PIO_OUTPUT, PIN_ATTR_DIGITAL, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_NONE }, // used as output only
+  { PORTB,  3, PIO_INPUT, PIN_ATTR_EXTINT, No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_3 }, // used as RFID INPUT
   { PORTA, 27, PIO_PWM, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM), No_ADC_Channel, PWM2_CH1, NOT_ON_TIMER, EXTERNAL_INT_NONE }, // used as output only
 
   // 32..34 - USB
