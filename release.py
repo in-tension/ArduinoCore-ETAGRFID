@@ -1,14 +1,13 @@
 import tarfile
 import os
 
-fileNames = os.listdir(".")
+fileNames = os.listdir("ArduinoCore-ETAGRFID")
 print(fileNames)
 
 
 tar = tarfile.open("ArduinoCoreETAGRFID.tar.bz2", "w:bz2")
 for name in fileNames:
-    if not name == "ArduinoCoreETAGRFID.tar.bz2":
-        tar.add(name)
+    tar.add("ArduinoCore-ETAGRFID/" + name)
 tar.close()
 
 
@@ -28,7 +27,7 @@ print(fileSize)
 
 
 
-JSONstring = '{"packages":[{"name":"arduino-beta","maintainer":"ArduinoBetatesting","websiteURL":"http://www.arduino.cc/","email":"packages@arduino.cc","help":{"online":"http://www.arduino.cc/en/Reference/HomePage"},"platforms":[{"archiveFileName":"package_ETAGRFID_index.tar.bz2","name":"ArduinoETAGRFIDcore","architecture":"samd","category":"Arduino",'
+JSONstring = '{"packages":[{"name":"ETAGRFID","maintainer":"ArduinoBetatesting","websiteURL":"http://www.arduino.cc/","email":"packages@arduino.cc","help":{"online":"http://www.arduino.cc/en/Reference/HomePage"},"platforms":[{"archiveFileName":"package_ETAGRFID_index.tar.bz2","name":"ArduinoETAGRFIDcore","architecture":"samd","category":"Arduino",'
 versionCode = '1.0.0'
 JSONstring += '"version": "' + versionCode + '",'
 JSONstring += '"url": "https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID.tar.bz2",'
