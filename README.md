@@ -37,7 +37,8 @@ builds a release for testing (the so called "Hourly builds").
 
 The hourly builds are available through Boards Manager. If you want to install them:
   1. Open the **Preferences** of the Arduino IDE.
-  2. Add this URL `http://downloads.arduino.cc/Hourly/samd/package_samd-hourly-build_index.json` in the **Additional Boards Manager URLs** field, and click OK.
+  2. Add this URL ~~`http://downloads.arduino.cc/Hourly/samd/package_samd-hourly-build_index.json`~~ 
+  `https://raw.githubusercontent.com/jaywilhelm/ArduinoCore-ETAGRFID/master/package_ETAGRFID_index.json` in the **Additional Boards Manager URLs** field, and click OK.
   3. Open the **Boards Manager** (menu Tools->Board->Board Manager...)
   4. Install **Arduino SAMD core - Hourly build**
   5. Select one of the boards under **SAMD Hourly build XX** in Tools->Board menu
