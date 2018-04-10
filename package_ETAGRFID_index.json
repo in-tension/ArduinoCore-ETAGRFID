@@ -1,0 +1,64 @@
+{
+  "packages": [
+    {
+      "name": "arduino-beta",
+      "maintainer": "Arduino Betatesting",
+      "websiteURL": "http://www.arduino.cc/",
+      "email": "packages@arduino.cc",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms": [
+        {
+          "name": "Arduino SAMD core - Hourly build",
+          "architecture": "samd",
+          "version": "9.9.9-Hourly",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/Hourly/samd/package_samd-hourly-b184.tar.bz2",
+          "archiveFileName": "package_ETAGRFID_index.tar.bz2",
+          # "checksum": "SHA-256:d94d9caea58e359053852bc9dc8b169f545bde97ce9094e94e9bb7012a5742e5",
+          # "size": "2860838",
+          "boards": [
+            {
+              "name": "Arduino Zero"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
