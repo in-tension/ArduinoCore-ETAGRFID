@@ -1,3 +1,2 @@
-*.bz2
 .DS_Store
 bootloaders/*/build/
