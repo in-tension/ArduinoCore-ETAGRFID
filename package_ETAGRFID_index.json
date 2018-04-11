@@ -16,8 +16,8 @@
                "category":"Arduino",
                "version":"1.0.0",
                "url":"https://github.com/jaywilhelm/ArduinoCore-ETAGRFID/raw/master/ArduinoCoreETAGRFID.tar.bz2",
-               "checksum":"SHA-256:6807d8c95cfefaf1ff93b1ea3c9a1f858247b02d7fd2dab33465e63311a4abb3",
-               "size":"1773224",
+               "checksum":"SHA-256:1ed0cb6645be1d970a8185dc1f27ac3fbf18d3f0e94b73e6a0fb57100fd394dc",
+               "size":"1773241",
                "boards":[
                   {
                      "name":"ArduinoZero"
