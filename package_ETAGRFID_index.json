@@ -10,7 +10,7 @@
          },
          "platforms":[
             {
-               "archiveFileName":"package_ETAGRFID_index.tar.bz2",
+               "archiveFileName":"ArduinoCoreETAGRFID.tar.bz2",
                "name":"ArduinoETAGRFIDcore",
                "architecture":"samd",
                "category":"Arduino",
